@@ -1,0 +1,178 @@
+.headerAndBannerForSolution {
+  background-color: #000 !important;
+  background-image: url(../images/Solution_hero.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: 110% 100% !important;
+  background-size: 55% 91% !important;
+  color: #fff !important;
+}
+
+.sectionTitle {
+  font-size: 8rem;
+  font-weight: 800;
+  font-family: AvenirBold;
+}
+body p {
+  font-size: 2.6rem;
+}
+
+#takeADrive .driveTitle {
+  font-size: 5.5rem;
+  color: #fff;
+  font-weight: 700;
+  padding-bottom: 5rem;
+}
+
+.driveCardsSlider {
+  padding-top: 4rem;
+}
+.driveCardsSlider .card {
+  background: #fff;
+  padding: 4rem 2.75rem;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+  border: none;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  max-height: 65rem;
+}
+
+#takeADrive .driveCardsSlider .card-body {
+  height: 470px;
+}
+
+@media screen and (max-width: 480px) {
+  #takeADrive .driveCardsSlider .card {
+    max-height: none !important;
+  }
+  
+  #takeADrive .driveCardsSlider .card-body {
+    height: auto !important;
+  }
+}
+
+#takeADrive {
+  padding-bottom: 3rem;
+}
+#takeADrive .slick-dots {
+  bottom: -45px;
+}
+#takeADrive .slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: #6600ec;
+}
+
+#takeADrive .slick-dots li button::before {
+  opacity: 1;
+  color: #464646;
+}
+
+#takeADrive .slick-dots li button::before {
+  font-family: slick;
+  font-size: 85px;
+}
+
+#takeADrive .slick-next:before {
+  content: url(../images/next.png);
+}
+
+#takeADrive .slick-prev:before {
+  content: url(../images/prev.png);
+}
+#takeADrive .slick-next {
+  right: -60px;
+}
+
+#takeADrive .slick-prev {
+  left: -80px;
+}
+
+.driveCardsSlider .card .cardLogoBody {
+  height: 6.5rem;
+  width: 6.5rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background: #000;
+  text-align: center;
+  padding-top: 1.85rem;
+  padding-left: 1.5rem;
+}
+.driveCardsSlider .card .cardLogoBody img {
+  max-width: 3.5rem;
+}
+.driveCardsSlider .card .card-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  letter-spacing: 0.1rem;
+  word-spacing: 1rem;
+}
+.driveCardsSlider .card .card-text {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.706);
+}
+
+.driveCardsSlider .card .card-footer .btn {
+  padding: 1rem 3.5rem;
+  background: #6600ec;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+}
+
+.driveCardsSlider .card .card-footer {
+  background: transparent;
+  border: none;
+  padding-top: 3rem;
+}
+
+#emailSubscribe .emailBoxCtrl {
+  position: relative;
+  width: 80%;
+  padding: 4rem 0;
+  background: linear-gradient(
+    90deg,
+    #6600ec 0%,
+    #b055ce 35%,
+    #b055ce 66%,
+    #6600ec 100%
+  );
+}
+
+.whiteBtn {
+  font-weight: 700;
+  font-size: 2.5rem;
+  padding: 1rem 4.5rem;
+}
+.solutionBody .solutionBanner {
+  padding-bottom: 30rem !important;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    overflow: hidden;
+  }
+  #takeADrive .slick-dots {
+    bottom: -31px;
+    z-index: 99999;
+  }
+  #takeADrive .slick-dots li button::before {
+    font-family: slick;
+    font-size: 48px;
+  }
+  .solutionBody .solutionBanner {
+    padding-bottom: 14rem !important;
+  }
+}

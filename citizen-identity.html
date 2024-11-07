@@ -1,0 +1,993 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <title>Citizen Identity Solution | Lattice Labs</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo/LatticeLabs/SVG/LatticeLabs_mark_black.svg" />
+
+
+    <!-- External Links -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <link rel="stylesheet" href="css/codemirrorver.css">
+
+    <link rel="stylesheet" href="codemirror-solidity/solidity.css">
+    <link rel="stylesheet" href="codemirror-solidity/solidity.js">
+
+    <script src="js/solidity.js"></script>
+    <script src="js/main.js"></script>
+
+</head>
+
+<body>
+
+    <section id="headerAndBanner4">
+
+        <header id="mainNav">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+
+                    <div class="container-fluid">
+                        <a class="navbar-brand logo" href="index.html"><img
+                                src="images/logo/LatticeLabs/SVG/LatticeLabs_Logotype_white.svg" alt="logo"></a>
+                        <button class="navbar-toggler" type="button">
+                            <img src="images/menu.png" alt="menu" class="img-fluid menuBtn">
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                            <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item dropdown d-md-none">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Dropdown
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="who-we-are.html">Who We Are</a>
+                                </li>    
+                                 <li class="nav-item">
+                                    <a class="nav-link active" href="developed.html">Developed</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="solutions.html ">Explore Solutions</a>
+                                </li>
+                                <li class="nav-item">
+                                      <a class="nav-link active" href="developers.html">For Developers</a>
+                                </li>
+                            </ul>
+                            <div class="d-flex">
+                                <a href="https://www.latticelabs.academy">
+                                    <button class="btn button buttonBig type="submit"> Lattice Labs Academy
+                                        </button>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+
+                <div class="mobileMenu">
+                    <div class="mobileHeaderCtrl">
+                        <div class="mobileHeaderLogo d-flex align-items-center justify-content-between">
+                            <img src="images/logo/LatticeLabs/SVG/LatticeLabs_Logotype_white.svg" href="index.html"
+                                alt="Lattice Labs Logo" alt="" width="20%" class="logoLL img-fluid">
+                            <img src="images/close.png" alt="close" class="img-fluid closeMenuBtn">
+                        </div>
+                    </div>
+
+                    <div class="mobileDropdownMenuItems">
+                        <div class="mobileMenuPadding">
+                            <div class="mobileQuickLinks d-md-none">
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingThree">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                                aria-expanded="false" aria-controls="flush-collapseThree">
+                                                <h3 class="footerTitle">Lattice Labs</h3>
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-headingThree"
+                                            data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <ul class="list-unstyled">
+                                                    <li><a href="who-we-are.html">Who We Are</a></li>
+                                                    <li><a href="news.html">News</a></li>
+                                                    <li><a href="contact.html">Contact Us</a></li>
+                                                    <li><a href="faq.html">FAQ</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingOne">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                                aria-expanded="false" aria-controls="flush-collapseOne">
+                                                <h3 class="footerTitle">Developed</h3>
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <ul class="list-unstyled">
+                                                     <li>
+                            <a href="developed.html">All Lattice DApps</a>
+                          </li>
+                          <li>
+                            <a href="https://explorer.latticenetwork.io/#/">Lattice Network Explorer</a>
+                          </li>
+                          <li>
+                            <a href="https://latticebackpack.io/">Lattice Web3 Backpack</a>
+                          </li>
+                          <li>
+                            <a href="https://chat.latticelabs.io/">Lattice AGI Chat</a>
+                          </li>
+                          <li>
+                            <a href="https://movetoearn.demo.latticelabs.io/#/">Lattice Move To Earn Demo</a>
+                          </li>
+                          <li>
+                            <a href="https://landregistry.demo.latticelabs.io/#/">Lattice Land Registry Demo</a>
+                          </li>
+                          <li>
+                            <a href="https://supplychain.demo.latticelabs.io/#/">Lattice Supply Chain Demo</a>
+                          </li>
+                          <li>
+                            <a href="https://healthcare.demo.latticelabs.io/">Lattice Healthcare Demo</a>
+                          </li>
+                          <li>
+                            <a href="https://enterprisehr.demo.latticelabs.io/#/">Lattice Enteprise HR Demo</a>
+                          </li>
+                          <li>
+                            <a href="https://citizenidentity.demo.latticelabs.io/#/">Lattice Citizen Identity Demo</a>
+                          </li>
+                          <li>
+                            <a href="https://Institutionalfinance.demo.latticelabs.io/#/">Lattice Institutional Finance Demo</a>
+                          </li>
+                          <li>
+                            <a href="https://centralbanking.demo.latticelabs.io/#/">Lattice Central Banking Demo</a>
+                          </li>
+                          <li>
+                            <a href="https://sportsfan.demo.latticelabs.io/#/">Lattice Sport Fan Demo</a>
+                          </li>
+                          <li>
+                            <a href="https://retailuser.demo.latticelabs.io/#/">Lattice Retail User Demo</a>
+                          </li>
+                          <li>
+                            <a href="https://eventattendee.demo.latticelabs.io/#/">Lattice Event Attendee Demo</a>
+                          </li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingTwo">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                                aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                <h3 class="footerTitle">Explore Solutions</h3>
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <ul class="list-unstyled ">
+                                                    <li>
+                <a href="solutions.html">All Lattice Solutions</a>
+                 <li>
+                                                       <li>
+                <a href="events-retail-sports.html">Events, Retail & Sports</a>
+              </li>
+              <li>
+                <a href="creatives.html">Creatives</a>
+              </li>
+              <li>
+                <a href="web3.0-social-games.html">Web 3.0, Social & Games</a>
+              </li>
+              <li>
+                <a href="housing-and-land-registry.html">Housing & Land Registry</a>
+              </li>
+              <li>
+                <a href="supply-chain.html">Supply Chain</a>
+              </li>
+              <li>
+                <a href="healthcare.html">Healthcare</a>
+              </li>
+              <li>
+                <a href="enterprise-hr.html">Enterprise HR</a>
+              </li>
+              <li>
+                <a href="citizen-identity.html">Citizen Identity</a>
+              </li>
+              <li>
+                <a href="institutional-finance.html">Institutional Finance</a>
+              </li>
+              <li>
+                <a href="central-banking.html">Central Banking</a>
+              </li>
+              <li>
+                <a href="dai.html">Decentralised Artificial Intelligence (DAI)</a>
+              </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingFour">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
+                                                aria-expanded="false" aria-controls="flush-collapseFour">
+                                                <h3 class="footerTitle" >For Developers</h3>
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <ul class="list-unstyled">
+                                                    <li><a href="developers.html">Explore</a></li>
+                                                    <li><a href="https://www.developers.latticelabs.io">Lattice Labs Developer Hub</a></li>
+                                                    <li><a href="https://www.latticelabs.academy">Lattice Labs Academy</a></li>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           <div class="mobileHeaderBtn text-center mt-5">
+                                <a href="https://www.latticelabs.academy" class="btn button buttonBig"
+                                    style="background: #7700F1;">Lattice Labs Academy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="banner" class="crewBanner">
+            <div class="container">
+                <h1 class="sectionTitle">
+                    Lattice Citizen Identity Solution
+                </h1>
+                <p class="commonTxt">
+                    With governments needing more transparency than ever, Lattice Labs provides a solution that makes
+                    them run efficiently. Lattice Labs have leveraged the power of zero-knowledge proof credentials. This cutting-edge technology offers a highly secure, efficient, and privacy-focused method of verifying and authenticating individuals within a government framework.
+                </p>
+                <div class="mt-5 text-lg-start text-center ">
+                    <a href="https://citizenidentity.demo.latticelabs.io/" class="btn purpleBtn button">Lattice Citizen Identity Demo</a>
+                    <a href="contact.html" class="btn purpleBtn button">
+                        Contact Us
+                    </a>
+                </div>
+                <div class="bannerDualText mb-4">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <p class="commonTxt" style="max-width: 100%;">
+                                A public blockchain with the principles of transparency and fairness helps governments
+                                and eradicate fraud,
+                                corruption and allow for fairer elections. Lattice Network can do this by increasing
+                                data privacy of individuals via
+                                Self Sovereign Identity (SSI), allowing citizens to share whatever data they choose
+                                without it being accessed by
+                                corporations, governments or institutions.
+                            </p>
+                            <p class="commonTxt" style="max-width: 100%;">
+                                Governments are already setting the pace by implementing blockchain technology, working
+                                together to fight said issues
+                                and problems for a fairer and more just society.
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p class="commonTxt" style="max-width: 100%;">
+                                <span style="font-weight: 900; color: white;">Self-sovereign identity:</span>
+                                Users can store their own identity data securely, permissioning
+                                which data sets of information
+                                to share with others without relying on a centralized database of identity data. Data
+                                becomes more interoperable and
+                                manageable when under an individual's control. They can deploy the data across multiple
+                                platforms, permit access as they
+                                wish, and do not have to be locked into one platform.
+
+                            </p>
+                        </div>
+                    </div>
+
+                    <hr class="mt-5">
+
+                    <div class="bannerDualText">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <h3 class="dualTitle">
+                                    Take a dive into real-world use cases
+                                </h3>
+                                <p class="commonTxt" style="max-width: 100%;">
+                                    Government services are known to be slow and inefficient in dealing
+                                    with unexpected public situations or shocks. More problems include fraudulent
+                                    activity, troubles in tracking and managing government documentation, inefficiency
+                                    in dealing with Debt Financing, fund management and more.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-5">
+                        <div class="row cardSolution">
+                            <div class="col-md-12 d-lg-flex mb-5">
+                                <div class="col-md-3">
+                                    <h3 class="dualTitle cardSolutionTitle font-21">
+                                        Slow and Inefficient
+                                    </h3>
+                                </div>
+                                <div class="col-lg-6 ">
+                                    <p class="commonTxt cardSolutionText">
+                                        It is often the case that Governments struggle to deal with unexpected public
+                                        emergencies, ongoing issues and more due to not having efficient and effective
+                                        processes in place to respond to such emergencies.
+                                    </p>
+                                </div>
+                                <div class="col-md-3 padding-left-30 border-left">
+                                    <p class="commonTxt cardSolutionProblem">
+                                        <span><i class="fa-solid fa-circle-xmark"></i> </span>
+                                        Lack of Efficiency
+                                    </p>
+                                    <p class="commonTxt cardSolutionProblem">
+                                        <span><i class="fa-solid fa-circle-xmark"></i> </span>
+                                        Processings delays
+                                    </p>
+                                    <p class="commonTxt cardSolutionProblem">
+                                        <span><i class="fa-solid fa-circle-xmark"></i> </span>
+                                        Lack of confidence amongst general public
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 my-5 d-lg-flex">
+                                <div class="col-md-3">
+                                    <h3 class="dualTitle cardSolutionTitle font-21">
+                                        Debt Financing and Fund Management
+                                    </h3>
+                                </div>
+                                <div class="col-lg-6 ">
+                                    <p class="commonTxt cardSolutionText">
+                                        Due to outdated systems and processes in place when it comes to managing and
+                                        dealing with debts and fund management, government departments often have a lack
+                                        of understanding of a streamlined process of dealing with such issues. This is
+                                        where blockchain technology can be brought into help with this issue.
+                                    </p>
+                                </div>
+                                <div class="col-md-3 padding-left-30 border-left">
+                                    <p class="commonTxt cardSolutionProblem">
+                                        <span><i class="fa-solid fa-circle-xmark"></i> </span>
+                                        Loss of funds
+                                    </p>
+                                    <p class="commonTxt cardSolutionProblem">
+                                        <span><i class="fa-solid fa-circle-xmark"></i> </span>
+                                        Intricate management software
+                                    </p>
+                                    <p class="commonTxt cardSolutionProblem">
+                                        <span><i class="fa-solid fa-circle-xmark"></i> </span>
+                                        Delays in providing correct information
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bannerDualText mt-5">
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <h3 class="dualTitle">
+                                        The Lattice Labs solution
+                                    </h3>
+                                    <p class="commonTxt" style="max-width: 100%;">
+                                        Lattice Labs offers a range of tools and services to help mitigate the issues
+                                        mentioned above by introducing
+                                        blockchain technology.
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row cardSolution mt-5">
+                                <div class="col-md-12 mb-5 d-lg-flex">
+                                    <div class="col-md-3">
+                                        <h3 class="dualTitle cardSolutionTitle font-21">
+                                            Decentralized identifiers / verifiable credentials
+                                        </h3>
+                                    </div>
+                                    <div class="col-lg-6 ">
+                                        <p class="commonTxt cardSolutionText">
+                                            Governments are able to store data in a more distributed, decentralized
+                                            manner and increase efficiency of governmental
+                                            agencies.
+
+                                            <br><br>
+
+                                            Governments can use decentralized identifiers (DIDs) and verifiable
+                                            credentials (VCs) to create secure, interoperable,
+                                            and privacy-preserving digital identity systems. DIDs provide a way to
+                                            create a globally unique identifier that is not
+                                            tied to a centralized authority, allowing individuals to own and control
+                                            their digital identity. VCs, on the other hand,
+                                            provide a way to verify information about an individual or entity without
+                                            revealing unnecessary personal information.
+                                            <br><br>
+                                            By leveraging DIDs and VCs, governments can build more secure and
+                                            privacy-preserving identity systems that give
+                                            individuals more control over their personal data. For example, a government
+                                            could issue a verifiable credential to a
+                                            citizen that attests to their citizenship or residency status. This
+                                            credential could then be stored on the citizen's
+                                            personal device, such as a smartphone or a hardware wallet, and presented to
+                                            third parties as needed, such as when
+                                            applying for a government service or a job.
+                                            <br><br>
+                                            Additionally, decentralized identity systems can improve the efficiency and
+                                            accuracy of identity verification processes,
+                                            as multiple parties can verify the same credential without relying on a
+                                            centralized authority. This can reduce the risk
+                                            of identity fraud, identity theft, and other types of digital
+                                            identity-related crimes.
+                                            <br><br>
+                                            Overall, decentralized identity systems built on DIDs and VCs offer
+                                            governments a way to create more secure,
+                                            privacy-preserving, and user-centric digital identity systems that can
+                                            improve the lives of citizens and provide a
+                                            foundation for new digital services and applications.
+
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3 padding-left-30 border-left">
+                                        <p class="commonTxt cardSolutionProblem">
+                                            <span><i class="fa-solid fa-circle-check"></i> </span>
+                                            Self-custody
+                                        </p>
+                                        <p class="commonTxt cardSolutionProblem">
+                                            <span><i class="fa-solid fa-circle-check"></i> </span>
+                                            Self-sovereign identity
+                                        </p>
+                                        <p class="commonTxt cardSolutionProblem">
+                                            <span><i class="fa-solid fa-circle-check"></i> </span>
+                                            Data ownership
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12 my-5 d-lg-flex">
+                                    <div class="col-md-3">
+                                        <h3 class="dualTitle cardSolutionTitle font-21">
+                                            Identity management
+                                        </h3>
+                                    </div>
+                                    <div class="col-lg-6 ">
+                                        <p class="commonTxt cardSolutionText">
+                                            Introducing decentralized identity management interfaces, tools and
+                                            processes allows governments to keep a much more
+                                            organized and understanding of individuals who require services.
+                                        </p>
+                                        <p class="commonTxt cardSolutionText">
+                                            Lattice Networks security and AI tools facilitate the public with safety for
+                                            their personal information and data. Users
+                                            and citizens can take ownership of their data and permission it out as they
+                                            wish.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3 padding-left-30 border-left">
+                                        <p class="commonTxt cardSolutionProblem">
+                                            <span><i class="fa-solid fa-circle-check"></i> </span>
+                                            Manageability and users in control
+                                        </p>
+                                        <p class="commonTxt cardSolutionProblem">
+                                            <span><i class="fa-solid fa-circle-check"></i> </span>
+                                            Data portability
+                                        </p>
+                                        <p class="commonTxt cardSolutionProblem">
+                                            <span><i class="fa-solid fa-circle-check"></i> </span>
+                                            Embedded encryption
+                                        </p>
+                                        <p class="commonTxt cardSolutionProblem">
+                                            <span><i class="fa-solid fa-circle-check"></i> </span>
+                                            Decentralized storage
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section id="emailSubscribe" class="emailEcoSystem">
+        <div class="container">
+            <div class="emailBoxCtrl">
+                <h3 class="sectionInnerTitle text-center pt-5">Need help building or deploying on blockchain?</h3>
+                <div class="btnCtrl text-center pb-5">
+                    <div class="btn formContact button ">
+                        <!-- Begin Mailchimp Signup Form -->
+                        <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet"
+                            type="text/css">
+                        <style type="text/css">
+                            #mc_embed_signup {
+                                background: #fff;
+                                clear: left;
+                                font: 14px Helvetica, Arial, sans-serif;
+                                width: 600px;
+                            }
+                              /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                        </style>
+                        <div id="mc_embed_signup">
+                            <form
+                                action="https://network.us11.list-manage.com/subscribe/post?u=ba1a6eabff8f774dec419 61a9&amp;id=a6a357a1cc&amp;f_id=00cf97e0f0"
+                                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                                class="validate" target="_blank" novalidate>
+                                <div id="mc_embed_signup_scroll">
+                                    <h2>Use this form and we will gladly assist you.</h2>
+                                    <div class="indicates-required"><span class="asterisk">*</span> indicates
+                                        required</div>
+
+                                    <div class="mc-field-group">
+                                        <label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
+                                        </label>
+                                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"
+                                            required>
+                                        <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+                                    </div>
+
+                                     <div class="mc-field-group">
+                                        <label for="mce-EMAIL">Phone Number <span class="asterisk">*</span>
+                                        </label>
+                                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"
+                                            required>
+                                        <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+                                    </div>
+
+                                    <div class="mc-field-group">
+                                        <label for="mce-EMAIL">First Name <span class="asterisk">*</span>
+                                        </label>
+                                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"
+                                            required>
+                                        <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+                                    </div>
+
+                                    <div class="mc-field-group">
+                                        <label for="mce-EMAIL">Last Name <span class="asterisk">*</span>
+                                        </label>
+                                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"
+                                            required>
+                                        <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+                                    </div>
+
+                                    <div class="mc-field-group">
+                                        <label for="mce-EMAIL">Your Role <span class="asterisk">*</span>
+                                        </label>
+                                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"
+                                            required>
+                                        <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+                                    </div>
+
+                    <div class="mc-field-group">
+                                        <label for="mce-EMAIL">Tell Us About Your Project <span class="asterisk">*</span>
+                                        </label>
+                    <textarea name="EMAIL" class="required email" id="mce-EMAIL" rows="5" cols="20" ></textarea>                                        
+                                        <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+                                    </div>
+
+                                    <div class="mc-field-group">
+                                        <label for="mce-LNAME">Link To Your Project</label>
+                                        <input type="text" value="" name="LNAME" class="" id="mce-LNAME"> <span
+                                            id="mce-LNAME-HELPERTEXT" class="helper_text"></span>
+                                    </div>
+
+                                    <div id="mce-responses" class="clear">
+                                        <div class="response" id="mce-error-response" style="display:none"></div>
+                                        <div class="response" id="mce-success-response" style="display:none"></div>
+                                    </div>
+
+                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input
+                                            type="text" name="b_ba1a6eabff8f774dec41961a9_a6a357a1cc" tabindex="-1"
+                                            value=""></div>
+                                    <div class="clear"><input type="submit" value="Submit" name="Subscribe"
+                                            id="mc-embedded-subscribe" class="button"></div>
+                                </div>
+                            </form>
+                        </div>
+                        <script type='text/javascript'
+                            src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+                        <script
+                            type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHON E'; ftypes[4] = 'phone'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
+                        <!--End mc_embed_signup-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+       <footer id="footer" class="">
+        <div class="container">
+            <div class="d-md-block d-none">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h3 class="footerTitle">Lattice Labs</h3>
+                        <ul class="list-unstyled liFooter">
+                            <li><a href="who-we-are.html">Who We Are</a></li>
+                            <li><a href="news.html">News</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h3 class="footerTitle">Developed</h3>
+                        <ul class="list-unstyled liFooter">
+                             <li>
+                            <a href="developed.html">All Lattice DApps</a>
+                          </li>
+                          <li>
+                            <a href="https://explorer.latticenetwork.io/#/">Lattice Network Explorer</a>
+                          </li>
+                          <li>
+                            <a href="https://latticebackpack.io/">Lattice Web3 Backpack</a>
+                          </li>
+                          <li>
+                            <a href="https://chat.latticelabs.io/">Lattice AGI Chat</a>
+                          </li>
+                          <li>
+                            <a href="https://movetoearn.demo.latticelabs.io/#/">Lattice Move To Earn Demo</a>
+                          </li>
+                          <li>
+                            <a href="https://landregistry.demo.latticelabs.io/#/">Lattice Land Registry Demo</a>
+                          </li>
+                          <li>
+                            <a href="https://supplychain.demo.latticelabs.io/#/">Lattice Supply Chain Demo</a>
+                          </li>
+                          <li>
+                            <a href="https://healthcare.demo.latticelabs.io/">Lattice Healthcare Demo</a>
+                          </li>
+                          <li>
+                            <a href="https://enterprisehr.demo.latticelabs.io/#/">Lattice Enteprise HR Demo</a>
+                          </li>
+                          <li>
+                            <a href="https://citizenidentity.demo.latticelabs.io/#/">Lattice Citizen Identity Demo</a>
+                          </li>
+                          <li>
+                            <a href="https://Institutionalfinance.demo.latticelabs.io/#/">Lattice Institutional Finance Demo</a>
+                          </li>
+                          <li>
+                            <a href="https://centralbanking.demo.latticelabs.io/#/">Lattice Central Banking Demo</a>
+                          </li>
+                          <li>
+                            <a href="https://sportsfan.demo.latticelabs.io/#/">Lattice Sport Fan Demo</a>
+                          </li>
+                          <li>
+                            <a href="https://retailuser.demo.latticelabs.io/#/">Lattice Retail User Demo</a>
+                          </li>
+                          <li>
+                            <a href="https://eventattendee.demo.latticelabs.io/#/">Lattice Event Attendee Demo</a>
+                          </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h3 class="footerTitle">EXPLORE SOLUTIONS</h3>
+                        <ul class="list-unstyled liFooter">
+                             <li>
+                <a href="solutions.html">All Lattice Solutions</a>
+                 <li>
+                                                       <li>
+                <a href="events-retail-sports.html">Events, Retail & Sports</a>
+              </li>
+              <li>
+                <a href="creatives.html">Creatives</a>
+              </li>
+              <li>
+                <a href="web3.0-social-games.html">Web 3.0, Social & Games</a>
+              </li>
+              <li>
+                <a href="housing-and-land-registry.html">Housing & Land Registry</a>
+              </li>
+              <li>
+                <a href="supply-chain.html">Supply Chain</a>
+              </li>
+              <li>
+                <a href="healthcare.html">Healthcare</a>
+              </li>
+              <li>
+                <a href="enterprise-hr.html">Enterprise HR</a>
+              </li>
+              <li>
+                <a href="citizen-identity.html">Citizen Identity</a>
+              </li>
+              <li>
+                <a href="institutional-finance.html">Institutional Finance</a>
+              </li>
+              <li>
+                <a href="central-banking.html">Central Banking</a>
+              </li>
+              <li>
+                <a href="dai.html">Decentralised Artificial Intelligence (DAI)</a>
+              </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h3 class="footerTitle">FOR DEVELOPERS</h3>
+                        <ul class="list-unstyled liFooter">
+                            <li><a href="developers.html">Explore</a></li>
+                            <li><a href="https://www.developers.latticelabs.io">Lattice Labs Developer Hub</a></li>
+                            <li><a href="https://www.latticelabs.academy">Lattice Labs Academy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mobileQuickLinks d-md-none">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                <h3 class="footerTitle">Lattice Labs</h3>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <ul class="list-unstyled">
+                                     <li><a href="who-we-are.html">Who We Are</a></li>
+                                     <li><a href="news.html">News</a></li>
+                                     <li><a href="contact.html">Contact Us</a></li>
+                                     <li><a href="faq.html">FAQ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                <h3 class="footerTitle">Developed</h3>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <ul class="list-unstyled">
+                                   <li>
+                            <a href="developed.html">All Lattice DApps</a>
+                          </li>
+                          <li>
+                            <a href="https://explorer.latticenetwork.io/#/">Lattice Network Explorer</a>
+                          </li>
+                          <li>
+                            <a href="https://latticebackpack.io/">Lattice Web3 Backpack</a>
+                          </li>
+                          <li>
+                            <a href="https://chat.latticelabs.io/">Lattice AGI Chat</a>
+                          </li>
+                          <li>
+                            <a href="https://movetoearn.demo.latticelabs.io/#/">Lattice Move To Earn Demo</a>
+                          </li>
+                          <li>
+                            <a href="https://landregistry.demo.latticelabs.io/#/">Lattice Land Registry Demo</a>
+                          </li>
+                          <li>
+                            <a href="https://supplychain.demo.latticelabs.io/#/">Lattice Supply Chain Demo</a>
+                          </li>
+                          <li>
+                            <a href="https://healthcare.demo.latticelabs.io/">Lattice Healthcare Demo</a>
+                          </li>
+                          <li>
+                            <a href="https://enterprisehr.demo.latticelabs.io/#/">Lattice Enteprise HR Demo</a>
+                          </li>
+                          <li>
+                            <a href="https://citizenidentity.demo.latticelabs.io/#/">Lattice Citizen Identity Demo</a>
+                          </li>
+                          <li>
+                            <a href="https://Institutionalfinance.demo.latticelabs.io/#/">Lattice Institutional Finance Demo</a>
+                          </li>
+                          <li>
+                            <a href="https://centralbanking.demo.latticelabs.io/#/">Lattice Central Banking Demo</a>
+                          </li>
+                          <li>
+                            <a href="https://sportsfan.demo.latticelabs.io/#/">Lattice Sport Fan Demo</a>
+                          </li>
+                          <li>
+                            <a href="https://retailuser.demo.latticelabs.io/#/">Lattice Retail User Demo</a>
+                          </li>
+                          <li>
+                            <a href="https://eventattendee.demo.latticelabs.io/#/">Lattice Event Attendee Demo</a>
+                          </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                <h3 class="footerTitle">EXPLORE SOLUTIONS</h3>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <ul class="list-unstyled">
+                                    <li>
+                <a href="solutions.html">All Lattice Solutions</a>
+                 <li>
+                                                       <li>
+                <a href="events-retail-sports.html">Events, Retail & Sports</a>
+              </li>
+              <li>
+                <a href="creatives.html">Creatives</a>
+              </li>
+              <li>
+                <a href="web3.0-social-games.html">Web 3.0, Social & Games</a>
+              </li>
+              <li>
+                <a href="housing-and-land-registry.html">Housing & Land Registry</a>
+              </li>
+              <li>
+                <a href="supply-chain.html">Supply Chain</a>
+              </li>
+              <li>
+                <a href="healthcare.html">Healthcare</a>
+              </li>
+              <li>
+                <a href="enterprise-hr.html">Enterprise HR</a>
+              </li>
+              <li>
+                <a href="citizen-identity.html">Citizen Identity</a>
+              </li>
+              <li>
+                <a href="institutional-finance.html">Institutional Finance</a>
+              </li>
+              <li>
+                <a href="central-banking.html">Central Banking</a>
+              </li>
+              <li>
+                <a href="dai.html">Decentralised Artificial Intelligence (DAI)</a>
+              </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                aria-controls="flush-collapseFour">
+                                <h3 class="footerTitle">FOR DEVELOPERS</h3>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <ul class="list-unstyled">
+                                    <li><a href="developers.html">Explore</a></li>
+                                     <li><a href="https://www.developers.latticelabs.io">Lattice Labs Developer Hub</a></li>
+                                     <li><a href="https://www.latticelabs.academy">Lattice Labs Academy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <section id="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-4 mb-md-0 d-flex align-items-center">
+                    <a class="navbar-brand footerBrand" href="index.html"><img
+                            src="images/logo/LatticeLabs/SVG/LatticeLabs_Logotype_white.svg" alt="logo"></a>
+                </div>
+                <div class="col-md-3 d-none d-md-flex align-items-center">
+                    <a href="#" class="footerBrandTwo">Copyright © 2022 - 2023 Lattice Labs.<br> 
+                        All Rights Reserved.</a>
+                </div>
+                <div class="col-md-3 footerIcons d-flex align-items-center">
+                    <ul class="list-unstyled d-flex">
+
+                        <li>
+                            <a href="https://www.facebook.com/people/Lattice-Labs/100085403912846/" target="_blank">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/lattice.labs/" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.tiktok.com/@lattice.labs" target="_blank">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/lattice-labsmc" target="_blank">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/@Latticelabs-education" target="_blank">
+                                <i class="fa fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.reddit.com/user/Lattice_Labs/" target="_blank">
+                                <i class="fa fa-reddit"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://medium.com/@Lattice_Labs" target="_blank">
+                                <i class="fa fa-medium"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://open.spotify.com/show/0PGyllkmTrwKY21E4WL3Xh?si=w-ROOV7MSqqZSh8Njltlhg&nd=1&_branch_match_id=1101797258557584932&utm_medium=sharing&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXLy7IL8lMq9TLyczL1vdyyopy9w72zapMAgDPpQzcIAAAAA%3D%3D"
+                                target="_blank">
+                                <i class="fa fa-spotify"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-md-3 d-md-none d-flex align-items-center">
+                    <p class="copyrightText">
+                        Copyright © 2022 - 2023 Lattice Labs. All Rights Reserved.
+                    </p>
+                </div>
+                <div class="col-md-3 d-flex align-items-center">
+                    <ul class="nav justify-content-center footerNav d-block d-md-flex">
+                        <li class="nav-item">
+                            <a class="nav-link" href="terms-of-service.html">Terms of Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="privacy-policy.html">Privacy Policy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cookie-policy.html">Cookie Policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5857fbd9b0.js" crossorigin="anonymous"></script>
+    <script src="js/custom.js"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+
+
+    </script>
+</body>
+</body>
+
+</html>

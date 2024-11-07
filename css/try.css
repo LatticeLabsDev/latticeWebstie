@@ -1,0 +1,76 @@
+/* Style the section */
+.solution-items {
+    background-color: #f8f8f8;
+    padding: 60px 0;
+  }
+  
+  /* Center-align the section title */
+  .title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #333; /* Text color */
+  }
+  
+  /* Style the carousel items */
+  .item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 15px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); /* Box shadow for cards */
+  }
+  
+  /* Style the item image */
+  .item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Style item headings */
+  .item h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #333; /* Text color */
+  }
+  
+  /* Style item descriptions */
+  .item p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 10px;
+    color: #777; /* Text color */
+  }
+  
+  /* Style the "Find Out More" button */
+  .item button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  /* Change button color on hover */
+  .item button:hover {
+    background-color: #0056b3; /* Hover background color */
+  }
+  
+  /* Center-align button within the item */
+  .item button {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Media query for responsiveness (adjust as needed) */
+  @media (max-width: 768px) {
+    /* Stack items on smaller screens */
+    .item {
+      margin: 0 0 30px 0;
+    }
+  }
+  
